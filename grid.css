@@ -1,21 +1,37 @@
+* {
+	box-sizing:border-box;
+}
 .container {
-
+	border:1px solid blue;
+	overflow: hidden;
+	width: 100%;
+	padding: 5px;
 }
 .column {
-
+	border: 1px solid gray;
+	background-color: lightsteelblue;
+	/*margin: 5px;*/
 }
 .full {
 
 }
 .two-thirds {
-
+	float: left;
+	width: 66%;
 }
 .third {
-
+	float: left;
+	width: 33%;
 }
 .half {
+	width: 50%;
+	float: left;
 
 }
 .fourth {
-	
+	width:25%;
+	float: left;
+}
+.clearfix {
+	clear: both;
 }
